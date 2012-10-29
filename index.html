@@ -31,21 +31,21 @@
         line = new L.CartoDBLayer({
           map: map,
           user_name:'saleiva',
-          table_name: 'sandy_5day_li',
+          table_name: 'sandy_5day_li2',
           query: 'SELECT * FROM sandy_5day_li'
         });
 
         polygons = new L.CartoDBLayer({
           map: map,
           user_name:'saleiva',
-          table_name: 'sandy_5day_pg',
+          table_name: 'sandy_5day_pg2',
           query: 'SELECT * FROM sandy_5day_pg WHERE which = 3 OR which = 1'
         });
 
         points = new L.CartoDBLayer({
           map: map,
           user_name:'saleiva',
-          table_name: 'sandy_5day_pt',
+          table_name: 'sandy_5day_pt2',
           query: 'SELECT * FROM sandy_5day_pt'
         });
 

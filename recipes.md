@@ -1,0 +1,1 @@
+SELECT st_difference(a.the_geom_webmercator,b.the_geom_webmercator) as the_geom_webmercator FROM (SELECT the_geom_webmercator FROM sandy_5day_pg2 WHERE which = 2) as a, (SELECT the_geom_webmercator FROM sandy_5day_pg2 WHERE which=1) as b
