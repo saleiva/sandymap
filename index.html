@@ -32,21 +32,21 @@
           map: map,
           user_name:'saleiva',
           table_name: 'sandy_5day_li2',
-          query: 'SELECT * FROM sandy_5day_li'
+          query: 'SELECT * FROM sandy_5day_li2'
         });
 
         polygons = new L.CartoDBLayer({
           map: map,
           user_name:'saleiva',
           table_name: 'sandy_5day_pg2',
-          query: 'SELECT * FROM sandy_5day_pg WHERE which = 3 OR which = 1'
+          query: 'SELECT * FROM sandy_5day_pg2 WHERE which = 3 OR which = 1'
         });
 
         points = new L.CartoDBLayer({
           map: map,
           user_name:'saleiva',
           table_name: 'sandy_5day_pt2',
-          query: 'SELECT * FROM sandy_5day_pt'
+          query: 'SELECT * FROM sandy_5day_pt2'
         });
 
         map.addLayer(polygons);
